@@ -1,12 +1,70 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 40px;
-  max-width: 400px;
-  margin: auto;
+/* Global box-sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-input, button {
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login container */
+.login-box {
+  width: 320px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Logo styling */
+.login-box img {
+  max-width: 150px;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+}
+
+/* Input fields */
+.login-box input {
+  display: block;
   width: 100%;
   padding: 10px;
-  margin-top: 5px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Login button */
+.login-box button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.login-box button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+#error-msg {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  min-height: 18px; /* keeps space for message to prevent layout jump */
 }
