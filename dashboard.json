@@ -1,0 +1,10 @@
+{
+  "test@example.com": {
+    "password": "1234",
+    "dashboard": "DASHBOARD"
+  },
+  "nopass@example.com": {
+    "password": "123456",
+    "dashboard": "DASHBOARD"
+  }
+}
