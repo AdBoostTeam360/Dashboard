@@ -6,5 +6,9 @@
   "nopass@example.com": {
     "password": "123456",
     "dashboard": "DASHBOARD"
+  },
+  "hongsosirirat@gmail.com": {
+    "password": "sirirat123",
+    "dashboard": "DASHBOARD"
   }
 }
