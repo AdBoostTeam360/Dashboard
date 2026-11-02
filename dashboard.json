@@ -42,6 +42,14 @@
   "ashawani.kumar@itvnetwork.com": {
     "password": "ashawani123",
     "dashboard": "https://lookerstudio.google.com/u/0/reporting/86fcf8ec-e2b6-4833-aa6a-241756811010/page/p_cvf1glcm2d"
+    },
+"jirawat.c@pptvthailand.com": {
+    "password": "pptvhd123",
+    "dashboard": "https://datastudio.google.com/u/0/reporting/86fcf8ec-e2b6-4833-aa6a-241756811010/page/p_gj8o7hax8d"
+},
+"new_entry_2@example.com": {
+    "password": "",
+    "dashboard": ""
 },
  "bi_team@nationgroup.com": {
     "password": "nationthailand123",
